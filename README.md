@@ -48,6 +48,14 @@ $$R_a^2 = 1 - \frac{(1 - R^2) (n - 1)}{n - p - 1} $$
 
 where $n$ is the number of observations in the data set and $p$ is the number of features.
 
+Results from notebook. Baseline model is just a simple linear regression model with only one feature. Multiple Reg-1 include 4 features with high correlation and Multiple Reg-2 only include 3 features.
+
+| Baseline Model | Multiple Reg-1 | Multiple Reg-2|
+| ---------|----------|----------|
+| 60.5 %| 70.5 %| 70.6 % |
+
+
+
 ## Dataset
 
 This dataset is a slightly modified version of the dataset provided in the StatLib library. The data concerns city-cycle fuel consumption in miles per gallon, to be predicted in terms of 3 multivalued discrete and 5 continuous attributes.
